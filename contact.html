@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Auto Car</title>
+ <style>
+  body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Header */
+.header {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  background: #fff;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.back-button {
+  font-size: 24px;
+  text-decoration: none;
+  margin-right: 20px;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+
+.logo {
+  height: 100px;
+  border-radius: 30px;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-links a:hover {
+  border-bottom: 2px solid #000;
+  
+}
+
+/* Contact Section */
+.contact {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.contact h1 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.contact-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background: #ddd;
+  padding: 30px 20px;
+  border-radius: 20px;
+  width: 220px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.card a {
+  text-decoration: underline;
+  color: #333;
+}
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header">
+    <div class="nav-container">
+      
+      <img src="images.png" alt="Auto Car Logo" class="logo">
+      <nav class="nav-links">
+        <a href="autocar.html">Home</a>
+        <a href="#">Order Car</a>
+        <a href="#">Promotions</a>
+        <a href="#">Upcoming Events</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <main class="contact">
+    <h1>Get in Touch with us</h1>
+
+    <div class="contact-cards">
+
+      <!-- Address -->
+      <div class="card">
+        <img src="https://img.icons8.com/ios/100/compass--v1.png" alt="Address icon">
+        <h3>ADDRESS</h3>
+        <p>Adonc 4/3, Penthouse,<br>Yerevan, RA</p>
+      </div>
+
+      <!-- Phone -->
+      <div class="card">
+        <img src="https://img.icons8.com/ios/100/phone.png" alt="Phone icon">
+        <h3>PHONE</h3>
+        <p>+374000000000</p>
+      </div>
+
+      <!-- Work Time -->
+      <div class="card">
+        <img src="https://img.icons8.com/ios/100/clock--v1.png" alt="Work time icon">
+        <h3>WORKTIME</h3>
+        <p>Mon - Fri 10:00 - 19:00<br>Sat - Sun Closed</p>
+      </div>
+
+      <!-- Email -->
+      <div class="card">
+        <img src="https://img.icons8.com/ios/100/new-post--v1.png" alt="Email icon">
+        <h3>EMAIL</h3>
+        <p><a href="mailto:info@vexpo.center">info@vexpo.center</a></p>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
